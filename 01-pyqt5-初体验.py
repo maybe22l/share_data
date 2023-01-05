@@ -23,12 +23,5 @@ center_pointer=QDesktopWidget().availableGeometry().center()
 print(center_pointer)#输出可用屏幕中心点
 x=center_pointer.x()
 y=center_pointer.y()
-print(x,y)
-print(window.frameGeometry().getRect())
-old_x,old_y,width,height=window.frameGeometry().getRect()#得到当前窗口的坐标以及宽高
-window.move(x-width/2,y-height/2)
-#设置图标
-window.setWindowIcon(QIcon("car.png"))
-window.show()#显示窗体
-
+“”“”“进行改变la啦啦啦啦啦啦啦
 sys.exit(app.exec_())#应用程序运行
